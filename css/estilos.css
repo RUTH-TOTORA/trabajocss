@@ -1,0 +1,240 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'lato';
+    font-size: 16px;
+    background: #fff;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/portada\ arriba.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+header .menu a{
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 18px;
+    text-decoration: black;
+    color: #fff;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+header .contenedor-textos-header{
+    margin: 150px 0;
+    text-align: center;
+}
+
+header .contenedor-textos-header .titulo-header{
+    font-size: 80px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .subtitulo-header{
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .call-to-action{
+    display: inline-block;
+    padding: 15px 10px;
+    border: 3px solid black;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+header .contenedor-textos-header .call-to-action:hover{
+    background: rgb(137, 150, 137);
+    color: black;
+}
+
+main .acerca-de{
+    background: rgba(42, 42, 167, 0.644);
+    padding: 60px 0;
+    text-align: center;
+}
+
+main .acerca-de .contenedor-texto-acerca .titulo-acerca{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+main .acerca-de .contenedor-texto-acerca .parrafo-acerca{
+    color: #fff;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+main .contenedor-servicios{
+    background: #fff;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+main .contenedor-servicios .contenedor-texto-servicios .titulo-servicios{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+}
+
+main .contenedor-servicios .contenedor-texto-servicios .parrafo-servicios{
+    color: #fff;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+main .iconos{
+    padding: 30px 0;
+}
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-iconos .icono-individual{
+    width: 33%;
+    margin: 20px 0;
+}
+
+.contenedor-iconos .icono-individual h3{
+    margin: 10px 0;
+}
+
+main .portafolio {
+    background: #fff;
+    padding: 30px 0;
+}
+
+main .contenedor-textos-portafolio{
+    text-align: center;
+}
+
+main .contenedor-textos-portafolio h2{
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main .portafolio .contenedor-portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .portafolio .contenedor-portafolio img{
+    width: 32%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+main .portafolio .contenedor-portafolio img:hover{
+    opacity: .6;
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    padding: 60px 0;
+    background-image: url(../img/footer.png);
+}
+
+footer .footer-textos{
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-textos .h2{
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+footer .footer-textos .titulo-parrafo{
+    font-weight: 300;
+    color: #4a4852;
+    margin-bottom: 45px;
+}
+
+footer .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+footer .formulario .nombre-contacto, footer .formulario .nombre-correo, footer .formulario .mensaje{
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #999999;
+    color: #999999;
+    border-radius: 10px;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer .formulario .mensaje{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+footer .formulario .derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .formulario .boton-envio{
+    display: inline-block;
+    padding: 15px 10px;
+    background: none;
+    border: 3.5px solid black;
+    color: black;
+    border-radius: 7px;
+}
+
+footer .formulario .boton-envio:hover{
+    background: cadetblue;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+
